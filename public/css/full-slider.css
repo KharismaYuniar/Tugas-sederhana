@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+ body{
+  margin:0px;
+  /* background: #2dc997; */
+ }
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.carousel-item .carousel-caption .button{
+  font-size: 18px;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  border:rgb(255, 255, 255) 1px solid;
+  padding:5px 5px;
+  border-radius: 10px;
+  margin-bottom:110px;
+}
+.carousel-item .carousel-caption .button:hover{
+ 
+  color:rgb(214, 241, 138);
+}
+
+.carousel-caption {
+  margin:200px;
+}
+
+
+
+.btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-get-started:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
+.container p{
+  text-align:justify;
+  /* justify-content:center; */
+}
